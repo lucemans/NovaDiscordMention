@@ -1,3 +1,0 @@
-<template>
-  <input-field default="nl.lucemans.plugin">IJ_BASE_PACKAGE</input-field>
-</template>
