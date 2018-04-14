@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="server111">
+    <CLASSES>
+      <root url="jar://X:/Minecraft/Plugins/server111.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://X:/Minecraft/Plugins/server111.jar!/" />
+    </SOURCES>
+  </library>
+</component>

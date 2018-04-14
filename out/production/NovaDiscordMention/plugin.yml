@@ -1,0 +1,5 @@
+main: nl.lucemans.mention.DiscordMention
+name: DiscordMention
+description: Discord Mention Plugin
+depends: ["discordSRV"]
+author: Lucemans
