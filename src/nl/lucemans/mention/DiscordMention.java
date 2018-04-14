@@ -45,6 +45,8 @@ public class DiscordMention extends JavaPlugin implements Listener {
         if (event.getBuffer().startsWith("/"))
             return;
         String lastWord = event.getBuffer().split(" ")[event.getBuffer().split(" ").length - 1];
+        if (!lastWord.startsWith("@"))
+            return;
         DiscordSRV.getPlugin().getMainTextChannel();
         List<Member> members  = DiscordSRV.getPlugin().getMainTextChannel().getMembers();
         ArrayList<String> players = new ArrayList<String>();
